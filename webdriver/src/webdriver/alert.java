@@ -20,6 +20,7 @@ public class alert {
 		Thread.sleep(3000);
 		driver.switchTo().alert().sendKeys("nilima");
 		driver.switchTo().alert().accept();
+		System.out.println("master");
 	}
 	
 
